@@ -10,6 +10,8 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+    base :'/ecommerce',
+
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
